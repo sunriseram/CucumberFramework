@@ -4,10 +4,8 @@ Feature: Demo QA Scenarios
   @DemoQADatePicker
   Scenario: I should be able to select a date from date picker
     Given I am on the date picker page "https://demoqa.com/date-picker"
-    When I enter "03/01/2002" to date picker
+    When I enter "09/24/2027" to date picker
     Then Date entered should be selected
-
-
 
 
 

@@ -12,23 +12,24 @@ public class SauceDemoLoginPage {
 	
 	public SauceDemoLoginPage() {
 		PageFactory.initElements(Driver.getDriver(), this);
-
-}
-	@FindBy (id="user-name")
+	}
+	
+	@FindBy (id = "user-name")
 	public WebElement username;
 	
-	@FindBy (id="password")
+	@FindBy (id = "password")
 	public WebElement password;
 	
-	@FindBy (id="login-button")
+	@FindBy (id = "login-button")
 	public WebElement loginButton;
 	
-	@FindBy (css=".title")
+	@FindBy (css = ".title")
 	public WebElement inventoryPageProductText;
 	
-	@FindBy (css=".inventory_item")
+	@FindBy (css = ".inventory_item")
 	public List<WebElement> inventoryItems;
 	
-	@FindBy (xpath="//h3[@data-test='error']")
-	public WebElement errormessage;
+	@FindBy (xpath = "//h3[@data-test='error']")
+	public WebElement errorMessage;
+
 }

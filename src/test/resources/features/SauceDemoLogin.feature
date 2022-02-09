@@ -22,7 +22,7 @@ Feature: Sauce Demo Login
   @SauceInvalidTests
   Scenario Outline: User is not able to log in with invalid credentials
     When I enter invalid username "<username>" password "<password>"
-    And I clikc on the login button
+    And I click on the login button
     Then I should not be logged in
     And Error message should display "Epic sadface: Username and password do not match any user in this service"
 
@@ -30,4 +30,5 @@ Feature: Sauce Demo Login
       | username      | password       |
       | standard_user | secret_invalid |
       | standard      | standard===    |
-      | standard123   | standard456    |
+      | standard123   | standard652    |
+
