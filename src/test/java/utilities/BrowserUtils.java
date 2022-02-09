@@ -93,9 +93,9 @@ public void hoverOverToElement(WebElement element) {
 }
 
 // drag the source element to the target element
-public void dragAndDrop(WebElement sourceElement, WebElement tagtetElement) {
+public void dragAndDrop(WebElement sourceElement, WebElement targetElement) {
 	act = new Actions(Driver.getDriver());
-	act.dragAndDrop(sourceElement, tagtetElement).build().perform();
+	act.dragAndDrop(sourceElement, targetElement).build().perform();
 }
 
 // this method is for deleting the pre-populated value of an input field with
