@@ -1,3 +1,4 @@
+@Regression
 @tag
 Feature: Amazon Login
   I want to be able to login with valid credentials.
