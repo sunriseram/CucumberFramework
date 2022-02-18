@@ -2,7 +2,7 @@
 Feature: DemoQA is a good website
   Allows us to practice our skills with test automation
 
-  @RadioTests @SmokeTest
+  @RadioTests @SmokeTests
   Scenario Outline: User is able to select a radio button
     Given I am on the radio button webpage "https://demoqa.com/radio-button"
     When I select "<radioOptions>"

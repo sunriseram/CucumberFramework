@@ -1,3 +1,5 @@
+
+@Regression
 Feature: Demo QA Scenarios
          I want to practice different scenarios on Demo QA
    
