@@ -103,6 +103,8 @@ public class TradeAppTrades {
 	@When("I enter the following data")
 	public void i_enter_the_following_data(DataTable dataTable) {
 		addTradeData = dataTable.asList();
+		
+		// |Buy to Open|VHDA|04/04/2021|10.0|01/11/2022|18|
 
 		stockSymbol = addTradeData.get(1);
 		stockEntryPrice = addTradeData.get(3);
@@ -121,6 +123,7 @@ public class TradeAppTrades {
 	@Then("The trade data resides in data base correctly")
 	public void the_trade_data_resides_in_data_base_correctly() {
 		// followings are the UI inputs
+		//|Buy to Open|VHDA|04/04/2021|10.0|01/11/2022|18.0|
 		String buyorsell = addTradeData.get(0);
 		String symbol = addTradeData.get(1);
 		String entryPrice = addTradeData.get(3);

@@ -17,7 +17,6 @@ public class Hook {
 	public void setup() {
 		Driver.getDriver()
 		.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		Driver.getDriver().manage().window().maximize();
 	}
 	
 	// after hook gets called after each scenario execution
@@ -33,5 +32,6 @@ public class Hook {
 		}
 		Driver.quitDriver();
 	}
+	
 
 }
