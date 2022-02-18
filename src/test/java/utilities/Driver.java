@@ -59,6 +59,7 @@ public class Driver {
 				opts.addArguments("--headless");
 				opts.addArguments("--disable-gpu");
 				opts.addArguments("--no-sandbox");
+				opts.addArguments("--window-size=1920,1080");
 				driver = new ChromeDriver(opts);
 			}
 		}
