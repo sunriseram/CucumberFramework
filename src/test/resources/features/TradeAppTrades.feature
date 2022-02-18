@@ -5,7 +5,7 @@ Feature: As a user, I am able to perform Trade app functions
   @AddTrade 
   Scenario: As a user, I want to add a trade
   Given I am on the Trade App log in page
-  When I enter username "helil" password "SuperHelil123!"
+  When I enter username "Rani" password "SuperRani123!"
   And I click on Trade login button
   Then I should be on Trade homepage
   When I click on Add Trade button
@@ -19,7 +19,7 @@ Feature: As a user, I am able to perform Trade app functions
   @AddTradeWithDataTable @SmokeTests
   Scenario: As a user, I want to add a trade
   Given I am on the Trade App log in page
-  When I enter username "helil" password "SuperHelil123!"
+  When I enter username "Rani" password "SuperRani123!"
   And I click on Trade login button
   Then I should be on Trade homepage
   When I click on Add Trade button
@@ -34,7 +34,7 @@ Feature: As a user, I am able to perform Trade app functions
   @AddTradeAndValidate @SmokeTests
   Scenario: As a user, I want to add a trade
   Given I am on the Trade App log in page
-  When I enter username "helil" password "SuperHelil123!"
+  When I enter username "Rani" password "SuperRani123!"
   And I click on Trade login button
   Then I should be on Trade homepage
   When I click on Add Trade button
@@ -51,7 +51,7 @@ Feature: As a user, I am able to perform Trade app functions
   Given I executed Insert query with the following data to Database
   |'890'|'1'|'0'|'HOOD'|'2021-10-10'|'50.0'|'2022-02-11'|'33.0'|'0'|
   Given I am on the Trade App log in page
-  When I enter username "helil" password "SuperHelil123!"
+  When I enter username "Rani" password "SuperRani123!"
   And I click on Trade login button
   Then I should be on Trade homepage
   When I search the "HOOD"
