@@ -7,7 +7,7 @@ Feature: Sauce Demo Login
   Background: 
     Given I am on the SauceDemo login page
 
-  @SauceValidLogin @SmokeTests
+  @SauceValidLogin 
   Scenario: Valid login test
     When I enter valid username "standard_user" password "secret_sauce"
     And I click on the login button
