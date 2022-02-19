@@ -56,7 +56,7 @@ public class PetStoreSteps {
 		
 		Assert.assertEquals(response.getContentType(),"application/json");
 		Assert.assertEquals(response.getStatusCode(), 200);
-		
+		// Assert.assertEquals(id, 123678);
 		Assert.assertEquals(response.path("name"), "Husky");
 		Assert.assertEquals(response.path("status"), "sold");
 	}
