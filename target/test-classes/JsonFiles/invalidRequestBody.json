@@ -1,0 +1,18 @@
+{
+  "category": {
+    "id": "badID",
+    "name": "Booboo",
+    "status": ""
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 22232,
+      "name": "dog"
+    }
+  ],
+  "status": "available"
+}

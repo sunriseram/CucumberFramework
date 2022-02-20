@@ -4,14 +4,18 @@
     "id": 22232,
     "name": "Cat"
   },
-  "name": "Fluffy",
+  "name": "Meow",
   "photoUrls": [
     "string"
   ],
   "tags": [
     {
       "id": 22232,
-      "name": "dog"
+      "name": "Cat"
+    },
+    {
+      "id": 2200,
+      "name": "Cat"
     }
   ],
   "status": "available"
