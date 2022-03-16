@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-21T12:49:56 EST" name="ApiTests" finished-at="2022-02-21T12:50:00 EST" duration-ms="4263">
+    <groups>
+    </groups>
+    <test started-at="2022-02-21T12:49:56 EST" name="API_SmokeTests" finished-at="2022-02-21T12:50:00 EST" duration-ms="4263">
+      <class name="apiTests.PetStoreAPI_Tests">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:apiTests.PetStoreAPI_Tests@1cbbffcd]" started-at="2022-02-21T12:49:56 EST" name="beforeMethod" finished-at="2022-02-21T12:49:56 EST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createAPet()[pri:0, instance:apiTests.PetStoreAPI_Tests@1cbbffcd]" started-at="2022-02-21T12:49:56 EST" name="createAPet" finished-at="2022-02-21T12:50:00 EST" duration-ms="3818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAPet -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:apiTests.PetStoreAPI_Tests@1cbbffcd]" started-at="2022-02-21T12:50:00 EST" name="beforeMethod" finished-at="2022-02-21T12:50:00 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getPetByID()[pri:0, instance:apiTests.PetStoreAPI_Tests@1cbbffcd]" started-at="2022-02-21T12:50:00 EST" name="getPetByID" finished-at="2022-02-21T12:50:00 EST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPetByID -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:apiTests.PetStoreAPI_Tests@1cbbffcd]" started-at="2022-02-21T12:50:00 EST" name="beforeMethod" finished-at="2022-02-21T12:50:00 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="justPrintingSomehing()[pri:0, instance:apiTests.PetStoreAPI_Tests@1cbbffcd]" started-at="2022-02-21T12:50:00 EST" name="justPrintingSomehing" finished-at="2022-02-21T12:50:00 EST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- justPrintingSomehing -->
+      </class> <!-- apiTests.PetStoreAPI_Tests -->
+    </test> <!-- API_SmokeTests -->
+  </suite> <!-- ApiTests -->
+</testng-results>

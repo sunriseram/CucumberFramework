@@ -10,7 +10,7 @@ Feature: As a user, I am able to perform Trade app functions
   Then I should be on Trade homepage
   When I click on Add Trade button
   Then I should be on Save Trade page
-  When I select "Buy to Open" and I enter symbol "MU" entryDate "04/04/2021" entryPrice "10.0" exitDate "01/11/2022" exitPrice "18"
+  When I select "Buy to Open" and I enter symbol "NU" entryDate "04/04/2021" entryPrice "10.0" exitDate "01/11/2022" exitPrice "18"
   And I click Save button
   Then The trade is displayed on the trade table
   And The data is deleted on the Database
@@ -58,4 +58,4 @@ Feature: As a user, I am able to perform Trade app functions
   And I click the Search button
   Then The trade input displayed on the trade table
   And The data is deleted on the Database
-  The trade is displayed on the trade table
+  Then The trade is displayed on the trade table
