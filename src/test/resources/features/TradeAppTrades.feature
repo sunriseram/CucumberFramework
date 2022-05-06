@@ -46,7 +46,7 @@ Feature: As a user, I am able to perform Trade app functions
   And The trade data resides in data base correctly
   And The data is deleted on the Database
   
-  @InsertDB
+   
   Scenario: As a user, I am able to insert a trade to Database
   Given I executed Insert query with the following data to Database
   |'890'|'1'|'0'|'HOOD'|'2021-10-10'|'50.0'|'2022-02-11'|'33.0'|'0'|
